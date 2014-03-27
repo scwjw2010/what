@@ -11,6 +11,7 @@ yeah i haven't figured this bit out yet
 ```js
 var what = require('what');
 
+// drop `what` in as a callback to see how it's called by a library
 fs.stat('what?', what);
     /* prints out:
      * callback(
@@ -18,6 +19,7 @@ fs.stat('what?', what);
      * );
      */
 
+// successful case of above
 fs.stat('./index.js', what);
     /* prints out:
      * callback(
@@ -26,11 +28,13 @@ fs.stat('./index.js', what);
     * );
      */
 
+// prints out a formatted function header
 what.params(fs.stat);
     /* prints out:
 	* function <anonymous>(path,callback);
      */
 
+// gets some info on a function, like the function name (if any), parameter names, and function body
 what.info(fs.stat);
     /* returns this object:
     * { name: null,
