@@ -8,10 +8,12 @@ yeah i haven't figured this bit out yet
 
 ## usage
 
+drop `what` in as a callback to see how it's called by a library. `what` will print out any parameters it's passed as well as try and figure out what type they are.
+
 ```js
 var what = require('what');
 
-// drop `what` in as a callback to see how it's called by a library
+// some example
 fs.stat('what?', what);
     /* prints out:
      * callback(
@@ -27,7 +29,11 @@ fs.stat('./index.js', what);
     *   `{ dev: 12345678,  mode: 3…` => null
     * );
      */
+```
 
+`what` can also do a couple more tricks:
+
+```js
 // prints out a formatted function header
 what.params(fs.stat);
     /* prints out:
