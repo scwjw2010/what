@@ -4,14 +4,14 @@ utility callback to help determine the parameters in poorly documented libraries
 
 ## install
 
-yeah i haven't figured this bit out yet
+yeah i haven't figure this out yet
 
 ## usage
 
 drop `what` in as a callback to see how it's called by a library. `what` will print out any parameters it's passed as well as try and figure out what type they are.
 
 ```js
-var what = require('what');
+var what = require(???);
 
 // some example
 fs.stat('what?', what);
