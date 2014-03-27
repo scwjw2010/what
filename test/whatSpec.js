@@ -24,3 +24,7 @@ tests.forEach(function(test) {
 fs.stat('what?', what);
 
 fs.stat('./index.js', what);
+
+what.params(fs.stat);
+
+console.log(what.info(fs.stat));
