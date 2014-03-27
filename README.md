@@ -26,7 +26,7 @@ fs.stat('./index.js', what);
     /* prints out:
      * callback(
     *   `null` => Error (guessed)
-    *   `{ dev: 12345678,  mode: 3…` => null
+    *   `{ dev: 12345678,  mode: 3…` => object
     * );
      */
 ```
