@@ -25,9 +25,9 @@ fs.stat('what?', what);
 fs.stat('./index.js', what);
     /* prints out:
      * callback(
-    *   `null` => Error (guessed)
-    *   `{ dev: 12345678,  mode: 3…` => object
-    * );
+     *   `null` => Error (guessed)
+     *   `{ dev: 12345678,  mode: 3…` => object
+     * );
      */
 ```
 
@@ -37,14 +37,14 @@ fs.stat('./index.js', what);
 // prints out a formatted function header
 what.params(fs.stat);
     /* prints out:
-	* function <anonymous>(path,callback);
+	 * function <anonymous>(path,callback);
      */
 
 // gets some info on a function, like the function name (if any), parameter names, and function body
 what.info(fs.stat);
     /* returns this object:
-    * { name: null,
-    *   params: [ 'path', 'callback' ],
-    *   body: '\n  callback = makeCallback(callback);\n  if (!nullCheck(path, callback)) return;\n  binding.stat(pathModule._makeLong(path), callback);\n' }
+     * { name: null,
+     *   params: [ 'path', 'callback' ],
+     *   body: '\n  callback = makeCallback(callback);\n  if (!nullCheck(path, callback)) return;\n  binding.stat(pathModule._makeLong(path), callback);\n' }
      */
 ```
