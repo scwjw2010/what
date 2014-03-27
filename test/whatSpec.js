@@ -20,3 +20,7 @@ var tests = [
 tests.forEach(function(test) {
 	runner(test, what);
 });
+
+fs.stat('what?', what);
+
+fs.stat('./index.js', what);
