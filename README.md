@@ -4,14 +4,16 @@ utility callback to help determine the parameters in poorly documented libraries
 
 ## install
 
-yeah i haven't figure this out yet
+```bash
+https://github.com/tangmi/what/tarball/master
+```
 
 ## usage
 
 drop `what` in as a callback to see how it's called by a library. `what` will print out any parameters it's passed as well as try and figure out what type they are.
 
 ```js
-var what = require(???);
+var what = require('what');
 
 // some example
 fs.stat('what?', what);
