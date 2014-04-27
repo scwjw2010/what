@@ -4,8 +4,8 @@ utility callback to help determine the parameters in poorly documented libraries
 
 ## install
 
-```bash
-https://github.com/tangmi/what/tarball/master
+```sh
+npm install --save https://github.com/tangmi/what/tarball/master # omit `--save` if you want to prevent yourself from deploying bad debugging code
 ```
 
 ## usage
