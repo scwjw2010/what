@@ -5,7 +5,7 @@ utility callback to help determine the parameters in poorly documented libraries
 ## install
 
 ```sh
-npm install --save tangmi/what # omit `--save` if you want to prevent yourself from deploying bad debugging code
+npm install --save what # omit `--save` if you want to prevent yourself from deploying bad debugging code
 ```
 
 ## usage
