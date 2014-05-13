@@ -1,29 +1,29 @@
 {
-	"name": "what",
-	"version": "0.0.1",
-	"description": "utility callback to help determine function parameters in poorly documented libraries",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"postpublish": "./node_modules/.bin/srun --script=postpublish"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/tangmi/what"
-	},
-	"keywords": [
-		"documentation",
-		"libary",
-		"callback",
-		"what"
-	],
-	"author": "tangmi",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/tangmi/what/issues"
-	},
-	"devDependencies": {
-		"srun": "0.0.8"
-	},
-	"homepage": "https://github.com/tangmi/what"
+  "name": "what",
+  "version": "0.0.2",
+  "description": "utility callback to help determine function parameters in poorly documented libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postpublish": "./node_modules/.bin/srun --script=postpublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangmi/what"
+  },
+  "keywords": [
+    "documentation",
+    "libary",
+    "callback",
+    "what"
+  ],
+  "author": "tangmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangmi/what/issues"
+  },
+  "devDependencies": {
+    "srun": "0.0.8"
+  },
+  "homepage": "https://github.com/tangmi/what"
 }
